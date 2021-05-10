@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Lato", sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(184, 15, 15);
+}
+
+h2 {
+	font-size: 3rem;
+	font-weight: bold;
+	padding: 2rem;
+	text-align: center;
+}
+
+.announcement {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.countdown {
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+}
+
+.day,
+.hour,
+.minute,
+.second {
+	font-size: 1.5rem;
+}
+
+.time {
+	height: 50vh;
+	width: 55vh;
+}
+
+.timeout {
+	display: none;
+	justify-content: space-around;
+	text-align: center;
+}
+
+@media screen and (max-width: 540px) {
+	.time {
+		width: 50vh;
+	}
+}
+
+@media screen and (max-width: 540px) {
+	.time {
+		width: 40vh;
+	}
+}
