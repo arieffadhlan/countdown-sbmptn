@@ -5,7 +5,7 @@ let hours = document.querySelector(".hour");
 let minutes = document.querySelector(".minute"); 
 let seconds = document.querySelector(".second"); 
 
-const countDate = new Date('May 10, 2021 16:55:00').getTime();
+const countDate = new Date('June 14, 2021 15:00:00').getTime();
 
 var countdown = setInterval(function() {
      const now = new Date().getTime();
